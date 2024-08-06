@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.jobpasscard-logo {
+    display: flex;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.searchLogin,
+ul,
+li,
+a {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.mycarttitle {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.mid {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+
+}
+
+.left-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    height: 400px;
+    margin-left: 150px;
+}
+
+
+
+
+.googledocs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    background-color: ghostwhite;
+    width: 100%;
+
+
+
+}
+
+.googleslides {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: ghostwhite;
+    width: 100%;
+
+}
+
+.googledocboxdetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    width: 500;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #87BFFB;
+    margin: 10px;
+}
+
+.googleslideboxdetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    width: 500;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #F4C263;
+    margin: 10px;
+}
+
+.googledocboxdetail,
+h2 {
+    color: white;
+}
+
+.docpicbox {
+    position: relative;
+
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.docpicbox img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+
+
+.select-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.select-indicators {
+    display: flex;
+    gap: 5px;
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00d4b6;
+
+}
+
+.indicator.inactive {
+    background-color: #e0e0e0;
+
+}
+
+.select-level {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #999;
+
+}
+
+.select-dropdown {
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+
+
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    gap: 100px;
+    background-color: ghostwhite;
+    padding-left: 10px;
+
+
+}
+
+
+.orderinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 418px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.promotioninput {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+}
+
+.coupontab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 20px;
+    gap: 40px
+}
+
+
+.applybutton {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    color: #00d4b6;
+}
+
+.totalpayment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.totalpaymentdetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 320px;
+}
+
+strong {
+
+    font-size: 25px;
+    color: #00d4b6;
+}
+
+.totalpaymentdetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincheckoutbutton {
+    font-weight: bold;
+    ;
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #00DCB5;
+    border: #00DCB5;
+}
+
+
+.price1,
+.price2 {
+
+    margin-top: 20px;
+}
+
+.deletebox {
+    border: 1px solid #00d4b6;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.deletebox>img {
+    position: relative;
+    top: 8px;
+    left: 4px;
+
+}
